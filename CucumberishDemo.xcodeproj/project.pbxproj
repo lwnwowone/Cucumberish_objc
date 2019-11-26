@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7F69587F5FC0B11D2C4E92 /* Pods_CucumberishDemo_CucumberishDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1C033FBF89095BC8AB80C /* Pods_CucumberishDemo_CucumberishDemoUITests.framework */; };
+		5B24E65FC280C5838ADBDAC3 /* Pods_CucumberishDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863EEDE5A973CCEBE735EF07 /* Pods_CucumberishDemoTests.framework */; };
+		88E63DCE3AE3AE3F6A3949DD /* Pods_CucumberishDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0E8E3C47B163EDDC6A8A5A /* Pods_CucumberishDemo.framework */; };
+		C7E96FA6238CC1BC00019FD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E96FA5238CC1BC00019FD7 /* AppDelegate.m */; };
+		C7E96FA9238CC1BC00019FD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E96FA8238CC1BC00019FD7 /* ViewController.m */; };
+		C7E96FAE238CC1BD00019FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E96FAD238CC1BD00019FD7 /* Assets.xcassets */; };
+		C7E96FB1238CC1BD00019FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E96FAF238CC1BD00019FD7 /* LaunchScreen.storyboard */; };
+		C7E96FB4238CC1BD00019FD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E96FB3238CC1BD00019FD7 /* main.m */; };
+		C7E96FC1238CC24F00019FD7 /* CucumberishDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E96FC0238CC24F00019FD7 /* CucumberishDemoTests.m */; };
+		C7E96FCF238CC25900019FD7 /* CucumberishDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E96FCE238CC25900019FD7 /* CucumberishDemoUITests.m */; };
+		C7E96FD7238CC29700019FD7 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = C7E96FD6238CC29700019FD7 /* Features */; };
+		C7E96FD9238CC29D00019FD7 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = C7E96FD8238CC29D00019FD7 /* Features */; };
+		C7E96FDE238CC3C500019FD7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E96FDA238CC3C000019FD7 /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E96FC3238CC24F00019FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E96F99238CC1BC00019FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E96FA0238CC1BC00019FD7;
+			remoteInfo = CucumberishDemo;
+		};
+		C7E96FD1238CC25900019FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E96F99238CC1BC00019FD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E96FA0238CC1BC00019FD7;
+			remoteInfo = CucumberishDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D4F9AE6BCA396F719F370B /* Pods-CucumberishDemo-CucumberishDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CucumberishDemo-CucumberishDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CucumberishDemo-CucumberishDemoUITests/Pods-CucumberishDemo-CucumberishDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1506AAC7848DBA0649D60CF0 /* Pods-CucumberishDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CucumberishDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CucumberishDemoTests/Pods-CucumberishDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		35BB62402A428D68E47E51CF /* Pods-CucumberishDemo-CucumberishDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CucumberishDemo-CucumberishDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CucumberishDemo-CucumberishDemoUITests/Pods-CucumberishDemo-CucumberishDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		393543A8554FEF0DE2C2E487 /* Pods-CucumberishDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CucumberishDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CucumberishDemoTests/Pods-CucumberishDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E24B98D91F0E679205B09E5 /* Pods-CucumberishDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CucumberishDemo.debug.xcconfig"; path = "Target Support Files/Pods-CucumberishDemo/Pods-CucumberishDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		863EEDE5A973CCEBE735EF07 /* Pods_CucumberishDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CucumberishDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90274CE07342440992844879 /* Pods-CucumberishDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CucumberishDemo.release.xcconfig"; path = "Target Support Files/Pods-CucumberishDemo/Pods-CucumberishDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AB0E8E3C47B163EDDC6A8A5A /* Pods_CucumberishDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CucumberishDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A1C033FBF89095BC8AB80C /* Pods_CucumberishDemo_CucumberishDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CucumberishDemo_CucumberishDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E96FA1238CC1BC00019FD7 /* CucumberishDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CucumberishDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E96FA4238CC1BC00019FD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7E96FA5238CC1BC00019FD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7E96FA7238CC1BC00019FD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7E96FA8238CC1BC00019FD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7E96FAD238CC1BD00019FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7E96FB0238CC1BD00019FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7E96FB2238CC1BD00019FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E96FB3238CC1BD00019FD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7E96FBE238CC24F00019FD7 /* CucumberishDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberishDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E96FC0238CC24F00019FD7 /* CucumberishDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishDemoTests.m; sourceTree = "<group>"; };
+		C7E96FC2238CC24F00019FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E96FCC238CC25900019FD7 /* CucumberishDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberishDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E96FCE238CC25900019FD7 /* CucumberishDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishDemoUITests.m; sourceTree = "<group>"; };
+		C7E96FD0238CC25900019FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E96FD6238CC29700019FD7 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		C7E96FD8238CC29D00019FD7 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
+		C7E96FDA238CC3C000019FD7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		C7E96FDB238CC3C000019FD7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E96F9E238CC1BC00019FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88E63DCE3AE3AE3F6A3949DD /* Pods_CucumberishDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E96FBB238CC24F00019FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B24E65FC280C5838ADBDAC3 /* Pods_CucumberishDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E96FC9238CC25900019FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7F69587F5FC0B11D2C4E92 /* Pods_CucumberishDemo_CucumberishDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05ABB08B1FA291B27A36C1ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0E8E3C47B163EDDC6A8A5A /* Pods_CucumberishDemo.framework */,
+				C5A1C033FBF89095BC8AB80C /* Pods_CucumberishDemo_CucumberishDemoUITests.framework */,
+				863EEDE5A973CCEBE735EF07 /* Pods_CucumberishDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0FCC79D4F49935BB9563220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E24B98D91F0E679205B09E5 /* Pods-CucumberishDemo.debug.xcconfig */,
+				90274CE07342440992844879 /* Pods-CucumberishDemo.release.xcconfig */,
+				11D4F9AE6BCA396F719F370B /* Pods-CucumberishDemo-CucumberishDemoUITests.debug.xcconfig */,
+				35BB62402A428D68E47E51CF /* Pods-CucumberishDemo-CucumberishDemoUITests.release.xcconfig */,
+				393543A8554FEF0DE2C2E487 /* Pods-CucumberishDemoTests.debug.xcconfig */,
+				1506AAC7848DBA0649D60CF0 /* Pods-CucumberishDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C7E96F98238CC1BC00019FD7 = {
+			isa = PBXGroup;
+			children = (
+				C7E96FA3238CC1BC00019FD7 /* CucumberishDemo */,
+				C7E96FBF238CC24F00019FD7 /* CucumberishDemoTests */,
+				C7E96FCD238CC25900019FD7 /* CucumberishDemoUITests */,
+				C7E96FA2238CC1BC00019FD7 /* Products */,
+				C0FCC79D4F49935BB9563220 /* Pods */,
+				05ABB08B1FA291B27A36C1ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E96FA2238CC1BC00019FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E96FA1238CC1BC00019FD7 /* CucumberishDemo.app */,
+				C7E96FBE238CC24F00019FD7 /* CucumberishDemoTests.xctest */,
+				C7E96FCC238CC25900019FD7 /* CucumberishDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E96FA3238CC1BC00019FD7 /* CucumberishDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C7E96FDB238CC3C000019FD7 /* Game.h */,
+				C7E96FDA238CC3C000019FD7 /* Game.m */,
+				C7E96FA4238CC1BC00019FD7 /* AppDelegate.h */,
+				C7E96FA5238CC1BC00019FD7 /* AppDelegate.m */,
+				C7E96FA7238CC1BC00019FD7 /* ViewController.h */,
+				C7E96FA8238CC1BC00019FD7 /* ViewController.m */,
+				C7E96FAD238CC1BD00019FD7 /* Assets.xcassets */,
+				C7E96FAF238CC1BD00019FD7 /* LaunchScreen.storyboard */,
+				C7E96FB2238CC1BD00019FD7 /* Info.plist */,
+				C7E96FB3238CC1BD00019FD7 /* main.m */,
+			);
+			path = CucumberishDemo;
+			sourceTree = "<group>";
+		};
+		C7E96FBF238CC24F00019FD7 /* CucumberishDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E96FD6238CC29700019FD7 /* Features */,
+				C7E96FC0238CC24F00019FD7 /* CucumberishDemoTests.m */,
+				C7E96FC2238CC24F00019FD7 /* Info.plist */,
+			);
+			path = CucumberishDemoTests;
+			sourceTree = "<group>";
+		};
+		C7E96FCD238CC25900019FD7 /* CucumberishDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E96FD8238CC29D00019FD7 /* Features */,
+				C7E96FCE238CC25900019FD7 /* CucumberishDemoUITests.m */,
+				C7E96FD0238CC25900019FD7 /* Info.plist */,
+			);
+			path = CucumberishDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E96FA0238CC1BC00019FD7 /* CucumberishDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E96FB7238CC1BD00019FD7 /* Build configuration list for PBXNativeTarget "CucumberishDemo" */;
+			buildPhases = (
+				A558C8A45992DF42CEC2F489 /* [CP] Check Pods Manifest.lock */,
+				C7E96F9D238CC1BC00019FD7 /* Sources */,
+				C7E96F9E238CC1BC00019FD7 /* Frameworks */,
+				C7E96F9F238CC1BC00019FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CucumberishDemo;
+			productName = CucumberishDemo;
+			productReference = C7E96FA1238CC1BC00019FD7 /* CucumberishDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E96FBD238CC24F00019FD7 /* CucumberishDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E96FC5238CC24F00019FD7 /* Build configuration list for PBXNativeTarget "CucumberishDemoTests" */;
+			buildPhases = (
+				0DB8308F58401AFF22E05F6F /* [CP] Check Pods Manifest.lock */,
+				C7E96FBA238CC24F00019FD7 /* Sources */,
+				C7E96FBB238CC24F00019FD7 /* Frameworks */,
+				C7E96FBC238CC24F00019FD7 /* Resources */,
+				6519CDF603789DEB818E00C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E96FC4238CC24F00019FD7 /* PBXTargetDependency */,
+			);
+			name = CucumberishDemoTests;
+			productName = CucumberishDemoTests;
+			productReference = C7E96FBE238CC24F00019FD7 /* CucumberishDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7E96FCB238CC25900019FD7 /* CucumberishDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E96FD3238CC25900019FD7 /* Build configuration list for PBXNativeTarget "CucumberishDemoUITests" */;
+			buildPhases = (
+				692120ACBFAF431D37B08AC1 /* [CP] Check Pods Manifest.lock */,
+				C7E96FC8238CC25900019FD7 /* Sources */,
+				C7E96FC9238CC25900019FD7 /* Frameworks */,
+				C7E96FCA238CC25900019FD7 /* Resources */,
+				C2A06DE8419E0F16463FAC8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E96FD2238CC25900019FD7 /* PBXTargetDependency */,
+			);
+			name = CucumberishDemoUITests;
+			productName = CucumberishDemoUITests;
+			productReference = C7E96FCC238CC25900019FD7 /* CucumberishDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E96F99238CC1BC00019FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = AlancLiu;
+				TargetAttributes = {
+					C7E96FA0238CC1BC00019FD7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C7E96FBD238CC24F00019FD7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C7E96FA0238CC1BC00019FD7;
+					};
+					C7E96FCB238CC25900019FD7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C7E96FA0238CC1BC00019FD7;
+					};
+				};
+			};
+			buildConfigurationList = C7E96F9C238CC1BC00019FD7 /* Build configuration list for PBXProject "CucumberishDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E96F98238CC1BC00019FD7;
+			productRefGroup = C7E96FA2238CC1BC00019FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E96FA0238CC1BC00019FD7 /* CucumberishDemo */,
+				C7E96FBD238CC24F00019FD7 /* CucumberishDemoTests */,
+				C7E96FCB238CC25900019FD7 /* CucumberishDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E96F9F238CC1BC00019FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E96FB1238CC1BD00019FD7 /* LaunchScreen.storyboard in Resources */,
+				C7E96FAE238CC1BD00019FD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E96FBC238CC24F00019FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E96FD7238CC29700019FD7 /* Features in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E96FCA238CC25900019FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E96FD9238CC29D00019FD7 /* Features in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB8308F58401AFF22E05F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CucumberishDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6519CDF603789DEB818E00C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CucumberishDemoTests/Pods-CucumberishDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CucumberishDemoTests/Pods-CucumberishDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CucumberishDemoTests/Pods-CucumberishDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692120ACBFAF431D37B08AC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CucumberishDemo-CucumberishDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A558C8A45992DF42CEC2F489 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CucumberishDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A06DE8419E0F16463FAC8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CucumberishDemo-CucumberishDemoUITests/Pods-CucumberishDemo-CucumberishDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CucumberishDemo-CucumberishDemoUITests/Pods-CucumberishDemo-CucumberishDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CucumberishDemo-CucumberishDemoUITests/Pods-CucumberishDemo-CucumberishDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E96F9D238CC1BC00019FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E96FA9238CC1BC00019FD7 /* ViewController.m in Sources */,
+				C7E96FB4238CC1BD00019FD7 /* main.m in Sources */,
+				C7E96FA6238CC1BC00019FD7 /* AppDelegate.m in Sources */,
+				C7E96FDE238CC3C500019FD7 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E96FBA238CC24F00019FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E96FC1238CC24F00019FD7 /* CucumberishDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E96FC8238CC25900019FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E96FCF238CC25900019FD7 /* CucumberishDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E96FC4238CC24F00019FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E96FA0238CC1BC00019FD7 /* CucumberishDemo */;
+			targetProxy = C7E96FC3238CC24F00019FD7 /* PBXContainerItemProxy */;
+		};
+		C7E96FD2238CC25900019FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E96FA0238CC1BC00019FD7 /* CucumberishDemo */;
+			targetProxy = C7E96FD1238CC25900019FD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7E96FAF238CC1BD00019FD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E96FB0238CC1BD00019FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7E96FB5238CC1BD00019FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7E96FB6238CC1BD00019FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E96FB8238CC1BD00019FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E24B98D91F0E679205B09E5 /* Pods-CucumberishDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CucumberishDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.CucumberishDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7E96FB9238CC1BD00019FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90274CE07342440992844879 /* Pods-CucumberishDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CucumberishDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.CucumberishDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7E96FC6238CC24F00019FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393543A8554FEF0DE2C2E487 /* Pods-CucumberishDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CucumberishDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.CucumberishDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CucumberishDemo.app/CucumberishDemo";
+			};
+			name = Debug;
+		};
+		C7E96FC7238CC24F00019FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1506AAC7848DBA0649D60CF0 /* Pods-CucumberishDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CucumberishDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.CucumberishDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CucumberishDemo.app/CucumberishDemo";
+			};
+			name = Release;
+		};
+		C7E96FD4238CC25900019FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D4F9AE6BCA396F719F370B /* Pods-CucumberishDemo-CucumberishDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CucumberishDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.CucumberishDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CucumberishDemo;
+			};
+			name = Debug;
+		};
+		C7E96FD5238CC25900019FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BB62402A428D68E47E51CF /* Pods-CucumberishDemo-CucumberishDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CucumberishDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.al.CucumberishDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CucumberishDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E96F9C238CC1BC00019FD7 /* Build configuration list for PBXProject "CucumberishDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E96FB5238CC1BD00019FD7 /* Debug */,
+				C7E96FB6238CC1BD00019FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E96FB7238CC1BD00019FD7 /* Build configuration list for PBXNativeTarget "CucumberishDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E96FB8238CC1BD00019FD7 /* Debug */,
+				C7E96FB9238CC1BD00019FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E96FC5238CC24F00019FD7 /* Build configuration list for PBXNativeTarget "CucumberishDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E96FC6238CC24F00019FD7 /* Debug */,
+				C7E96FC7238CC24F00019FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E96FD3238CC25900019FD7 /* Build configuration list for PBXNativeTarget "CucumberishDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E96FD4238CC25900019FD7 /* Debug */,
+				C7E96FD5238CC25900019FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E96F99238CC1BC00019FD7 /* Project object */;
+}
